@@ -1,5 +1,9 @@
 # Visual Studio 2015 user specific files
 .vs/
+.vsconfig
+
+# Rider user specific files
+.idea/
 
 # Compiled Object files
 *.slo
@@ -51,6 +55,9 @@ Plugins/**/Binaries/*
 
 # Builds
 Build/*
+
+# Plarforms HoloLens
+Platforms/HoloLens
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
